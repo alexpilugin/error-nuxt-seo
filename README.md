@@ -53,6 +53,7 @@ npm run deploy-fb
 
 And you will see the Error of deploying functions:
 
+```
 i  functions: creating Node.js 18 (2nd Gen) function server(us-central1)...
 Build failed with status: FAILURE and message: npm error code EBADPLATFORM
 npm error notsup Unsupported platform for @css-inline/css-inline-darwin-x64@0.14.1: wanted {"os":"darwin","cpu":"x64"} (current: {"os":"linux","cpu":"x64"})
@@ -61,8 +62,14 @@ npm error notsup Actual os:  linux
 npm error notsup Valid cpu:  x64
 npm error notsup Actual cpu: x64
 
-
 Functions deploy had errors with the following functions:
         server(us-central1)
 
 Error: There was an error deploying functions
+```
+
+## System / Nuxt Info:
+
+```
+npx envinfo --system --binaries --browsers
+```
