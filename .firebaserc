@@ -1,0 +1,14 @@
+{
+  "projects": {},
+  "targets": {
+    "alexpi-staging-001": {
+      "hosting": {
+        "ap-admin-sdk-nuxt-01": [
+          "ap-admin-sdk-nuxt-01"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
